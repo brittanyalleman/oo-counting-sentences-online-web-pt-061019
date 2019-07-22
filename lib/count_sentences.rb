@@ -20,8 +20,9 @@ class String
     sentance_splits = []
     word_splits.each do |a|
     if a != ""
-      << []
+    sentance_splits << a 
     end
     end
+    sentance_splits
   end
 end
