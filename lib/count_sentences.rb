@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     word_splits = self.split(/\?|\.|\!/)
-    binding.pry
+    #binding.pry
     sentance_splits = []
     word_splits.each do |a|
     if a != ""
