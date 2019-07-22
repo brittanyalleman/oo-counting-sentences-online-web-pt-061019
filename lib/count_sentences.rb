@@ -23,6 +23,6 @@ class String
     sentance_splits << a
     end
     end
-    sentance_splits
+    sentance_splits.count 
   end
 end
