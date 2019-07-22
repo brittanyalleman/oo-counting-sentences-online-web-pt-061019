@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    self.sentance?(.)
+    self.sentance?(".")
   end
 
   def question?
